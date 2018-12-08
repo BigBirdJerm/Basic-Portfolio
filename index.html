@@ -1,45 +1,129 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
-<head>
-    <meta charset="UTF-8">
-    <title>About | Jeremy Holthaus</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
-
-<body>
-    <header id="masthead">
-        <div class="container">
-            <a href="index.html" id="logo">Jeremy Holthaus</a>
-            <nav>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </nav>
+  <head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta charset="UTF-8" />
+    <title>Jeremy Holthaus Portfolio</title>
+    <script src="https://use.fontawesome.com/2214a7171f.js"></script>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Navagation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container p-0">
+        <a class="navbar-brand" href="index.html">Jeremy Holthaus</a>
+        <button
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          class="navbar-toggler"
+          data-target="#navbarNav"
+          data-toggle="collapse"
+          type="button"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"
+                >About<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <!-- navbar-nav -->
         </div>
-    </header>
-
-    <div id="main-container" class="container">
-        <section class="main-section">
-            <h1>About Me</h1>
-
-            <img src="assets/images/maxresdefault.jpg" class="auth-image" alt="Jeremy Holthaus">
-
-            <p>My name is Jeremy Holthaus. I am just starting my journey as a web developer so this is very exciting
-                for me! I have spent a lot of time playing video games and playing sports so those would be my two
-                favorite hobbies. I also love watching sports especially Baltimore sports. I hope to one day become an
-                extremely skilled coder and help develop a video game someday!</p>
-
-
-        </section>
-
+        <!-- collapse -->
+      </div>
+      <!-- container -->
+    </nav>
+    <!-- navbar -->
+    <!-- Body -->
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="card col-lg-8 mt-4">
+          <div class="card-body">
+            <h4 class="card-title">About Me</h4>
+            <hr />
+            <img
+              alt="Profile Picture"
+              class="float-left col-sm-6"
+              src="assets/images/profilepic.jpg"
+            />
+            My name is Jeremy Holthaus. I am a student at George Washington
+            University and an aspiring full stack web developer! I hope to one
+            day work on video games or make a website for my mother's business.
+            I am super excited about the future and hope to work in this field
+            for a very long time!
+          </div>
+          <!-- card-body -->
+        </div>
+        <!-- card col-lg-8 -->
+        <div class="col-lg-3 p-0 mt-4">
+          <!-- card height fix -->
+          <div class="card p-0">
+            <div class="card-header">Connect with me</div>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-4 p-1">
+                  <a
+                    class="fa-stack fa-2x mx-auto d-block"
+                    href="https://github.com/BigBirdJerm"
+                    target="_blank"
+                    ><i class="fa fa-square fa-stack-2x btn-outline-dark"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i
+                  ></a>
+                </div>
+                <div class="col-4 p-1">
+                  <a
+                    class="fa-stack fa-2x mx-auto d-block"
+                    href="https://www.linkedin.com/in/jeremy-holthaus-138425169/"
+                    target="_blank"
+                    ><i class="fa fa-square fa-stack-2x btn-outline-dark"></i>
+                    <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i
+                  ></a>
+                </div>
+                <div class="col-4 p-1">
+                  <a
+                    class="fa-stack fa-2x mx-auto d-block"
+                    href="https://stackoverflow.com/users/10509087/jeremy-holthaus"
+                    target="_blank"
+                    ><i class="fa fa-square fa-stack-2x btn-outline-dark"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i
+                  ></a>
+                </div>
+              </div>
+              <!-- /row -->
+            </div>
+            <!-- card-body -->
+          </div>
+          <!-- card -->
+        </div>
+        <!-- col-lg-3 -->
+      </div>
+      <!-- /row justify-content-between -->
     </div>
-
-    <footer>
-        <div class="container">
-            Copyright &copy;
-        </div>
+    <!-- container -->
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">Always Updates!</span>
+      </div>
     </footer>
-</body>
-
+    <!-- Javascript -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+  </body>
 </html>

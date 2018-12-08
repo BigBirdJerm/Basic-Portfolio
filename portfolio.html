@@ -1,64 +1,231 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-us">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Portfolio | Jeremy Holthaus</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
-
-<body>
-
-    <header id="masthead">
-        <div class="container">
-            <a href="index.html" id="logo">Jeremy Holthaus</a>
-            <nav>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </nav>
+  <head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta charset="UTF-8" />
+    <title>Jeremy Holthaus Portfolio</title>
+    <script src="https://use.fontawesome.com/2214a7171f.js"></script>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Navagation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container p-0">
+        <a class="navbar-brand" href="index.html">Jeremy Holthaus</a>
+        <button
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          class="navbar-toggler"
+          data-target="#navbarNav"
+          data-toggle="collapse"
+          type="button"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="portfolio.html"
+                >Portfolio<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <!-- navbar-nav -->
         </div>
-    </header>
-
-    <div id="main-container" class="container">
-        <section class="main-section">
-            <h1>Portfolio</h1>
-
-            <div class="work">
-                <img src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
-
-                <h3>Word Guess</h3>
+        <!-- collapse -->
+      </div>
+      <!-- container -->
+    </nav>
+    <!-- navbar -->
+    <!-- Body -->
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="card col-lg-8 mt-4">
+          <div class="card-body">
+            <h4 class="card-title">Portfolio</h4>
+            <hr />
+            <div class="row">
+              <div class="card-columns">
+                <!-- Portfolio Item 1 -->
+                <div class="card">
+                  <img
+                    alt="Portfolio 1 Word Guess Game"
+                    class="card-img-top"
+                    src="assets/images/wordguess.jpg"
+                  />
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item p-1 text-center">
+                      <a
+                        class="btn btn-outline-dark"
+                        href="https://github.com/BigBirdJerm/Word-Guess-Game.git"
+                        target="_blank"
+                        >Word Guess Game</a
+                      >
+                      <a
+                        class="btn btn-outline-secondary"
+                        href="https://github.com/BigBirdJerm/Word-Guess-Game.git"
+                        target="_blank"
+                        ><i class="fa fa-github fa-lg"></i
+                      ></a>
+                    </li>
+                    <li class="list-group-item bg-light border-0">
+                      Guess my favorite movies!
+                    </li>
+                    <li class="list-group-item bg-dark text-center p-1 pb-2">
+                      <span class="badge badge-pill badge-secondary">HTML</span>
+                      <span class="badge badge-pill badge-primary">CSS</span>
+                      <span class="badge badge-pill badge-info"
+                        >Javascript</span
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- card -->
+                <!-- Portfolio Item 2 -->
+                <div class="card mt-3">
+                  <img
+                    alt="Portfolio 2 Avengers RPG Game"
+                    class="card-img-top"
+                    src="assets/images/avengerslogo.jpg"
+                  />
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item p-1 text-center">
+                      <a
+                        class="btn btn-outline-dark"
+                        href="https://github.com/BigBirdJerm/Unit-4-Game.git"
+                        target="_blank"
+                        >Avengers RPG</a
+                      >
+                      <a
+                        class="btn btn-outline-secondary"
+                        href="https://github.com/BigBirdJerm/Unit-4-Game.git"
+                        target="_blank"
+                        ><i class="fa fa-github fa-lg"></i
+                      ></a>
+                    </li>
+                    <li class="list-group-item bg-light border-0">
+                      The Avengers Face off!
+                    </li>
+                    <li class="list-group-item bg-dark text-center p-1 pb-2">
+                      <span class="badge badge-pill badge-secondary">HTML</span>
+                      <span class="badge badge-pill badge-info"
+                        >Javascript</span
+                      >
+                      <span class="badge badge-pill badge-primary">jquery</span>
+                    </li>
+                  </ul>
+                </div>
+                <!-- card -->
+                <!-- Portfolio Item 3 -->
+                <div class="card">
+                  <img
+                    alt="Portfolio 3 Trivia Game"
+                    class="card-img-top"
+                    src="assets/images/trivialogo.jpg"
+                  />
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item p-1 text-center">
+                      <a
+                        class="btn btn-outline-dark"
+                        href="https://github.com/BigBirdJerm/TriviaGame.git"
+                        target="_blank"
+                        >Baltimore Ravens Trivia</a
+                      >
+                      <a
+                        class="btn btn-outline-secondary"
+                        href="https://github.com/BigBirdJerm/TriviaGame.git"
+                        target="_blank"
+                        ><i class="fa fa-github fa-lg"></i
+                      ></a>
+                    </li>
+                    <li class="list-group-item bg-light border-0">
+                      Do you know your Ravens history?
+                    </li>
+                    <li class="list-group-item bg-dark text-center p-1 pb-2">
+                      <span class="badge badge-pill badge-secondary">HTML</span>
+                      <span class="badge badge-pill badge-primary">jquery</span>
+                      <span class="badge badge-pill badge-danger"
+                        >Javascript</span
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- card -->
+                <!-- card -->
+              </div>
+              <!-- card-columns -->
             </div>
-            <div class="work">
-                <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
-
-                <h3>RPG Game</h3>
+            <!-- row -->
+          </div>
+          <!-- card-body -->
+        </div>
+        <!-- card col-lg-8 -->
+        <div class="col-lg-3 p-0 mt-4">
+          <!-- card height fix -->
+          <div class="card p-0">
+            <div class="card-header">Connect with me</div>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-4 p-1">
+                  <a
+                    class="fa-stack fa-2x mx-auto d-block"
+                    href="https://github.com/BigBirdJerm"
+                    target="_blank"
+                    ><i class="fa fa-square fa-stack-2x btn-outline-dark"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i
+                  ></a>
+                </div>
+                <div class="col-4 p-1">
+                  <a
+                    class="fa-stack fa-2x mx-auto d-block"
+                    href="https://www.linkedin.com/in/jeremy-holthaus-138425169/"
+                    target="_blank"
+                    ><i class="fa fa-square fa-stack-2x btn-outline-dark"></i>
+                    <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i
+                  ></a>
+                </div>
+                <div class="col-4 p-1">
+                  <a
+                    class="fa-stack fa-2x mx-auto d-block"
+                    href="https://stackoverflow.com/users/10509087/jeremy-holthaus"
+                    target="_blank"
+                    ><i class="fa fa-square fa-stack-2x btn-outline-dark"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i
+                  ></a>
+                </div>
+              </div>
+              <!-- /row -->
             </div>
-            <div class="work">
-                <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
-
-                <h3>Trivia Game</h3>
-            </div>
-            <div class="work">
-                <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
-
-                <h3>Rutgers Info Widget</h3>
-            </div>
-            <div class="work">
-                <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
-
-                <h3>Rock Paper Scissors</h3>
-            </div>
-
-        </section>
-
+            <!-- card-body -->
+          </div>
+          <!-- card -->
+        </div>
+        <!-- col-lg-3 -->
+      </div>
+      <!-- /row justify-content-between -->
     </div>
-
-    <footer>
-        <div class="container">
-            Copyright &copy;
-        </div>
+    <!-- container -->
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">Always Updating</span>
+      </div>
     </footer>
-</body>
-
+    <!-- Javascript -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+  </body>
 </html>
